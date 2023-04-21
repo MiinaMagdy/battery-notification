@@ -6,16 +6,20 @@ Simple bash script that makes notification when the battery percentage reaches u
 ```bash
 git clone git@github.com:MiinaMagdy/battery-notification.git
 ```
-```bash
-cd battery-notification
-```
 2. Run the following command
 ```bash
-chmod +x battery-notification.sh
+chmod +x ./battery-notification/battery-full-notification.sh
 ```
-3. Open startup applications
+3. copy to `/usr/bin/` directory
+```bash
+sudo cp -r ./battery-notification /usr/bin/
+```
+4. Open startup applications
 ```bash
 gnome-session-properties
 ```
-4. press the `add` button and browse the path of the script
-5. Done!
+5. press the `add` button and add the following path to it
+```bash
+/usr/bin/battery-notification/battery-full-notification.sh
+```
+6. Reboot and Done!
