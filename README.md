@@ -18,8 +18,10 @@ sudo cp -r ./battery-notification /usr/bin/
 ```bash
 gnome-session-properties
 ```
-5. press the `add` button and add the following path to it
+5. press the `add` button and add the following in the command section
 ```bash
 /usr/bin/battery-notification/battery-full-notification.sh
 ```
+![image](https://user-images.githubusercontent.com/71466151/233751215-81091191-8b95-4ae3-a62a-d1759ee54854.png)
+
 6. Reboot and Done!
