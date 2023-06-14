@@ -12,5 +12,5 @@ do
 			paplay $currentPath/complete.oga
 		fi
 	fi
-	sleep 10s
+	sleep 300s
 done
