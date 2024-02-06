@@ -1,5 +1,5 @@
 # battery-notification
-Simple bash script that makes notification when the battery percentage reaches up to 95%
+A shell script that notifies you when the battery percentage reaches up to 95% on Linux
 
 ## Installation
 1. Clone the repository to your local machine
